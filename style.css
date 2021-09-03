@@ -1,0 +1,123 @@
+.logo {
+    font-size: 36px;
+    margin-left:40px ;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    margin-left: 800px;
+}
+.list a{
+    display: block;
+    padding: 15px;
+    margin: -110px 0;
+    text-decoration: none;
+}
+.menu{
+    height: auto;
+    padding: 10px 0;
+    background: linear-gradient( to bottom right, white, #bcbdc4);
+    border-bottom: 2px solid #000;
+    height: 70px;
+}
+.menu ul li a:hover{
+    background: #CCEE55;/*le hover permet d'avoir une couleur d'arriere plan au niveau des liens*/
+    }
+.menu ul li:hover ul{
+        display: block;
+    }
+    .font_image
+    {
+        background: radial-gradient(cyan,red);
+        width: 100%;
+        height: 30%;
+    }
+    .image{
+        margin-top: 3%;
+         margin-left: 15%;
+       
+        
+    }
+    .titre{
+        font-size: 70;
+        font-weight: bold;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        animation: mymoves 3s infinite  ; 
+        
+    }
+    @keyframes mymoves{
+        from{
+            background-color: blue;
+            
+        }
+     
+    }
+    #pied{
+        margin-top:0px;
+        height: 100px;
+        text-align: center;
+         
+        background: linear-gradient( to bottom right, white, #bcbdc4);
+        
+    }
+    
+
+    .parti1{
+        width: 100%;
+    }
+    .tableau1{
+        margin-left: 50px;
+        width: 95%;
+        margin: 1%;
+        padding: 1%;
+        height: 20%;
+    }
+    .les_bloc1{
+        width: 20%;
+        height: 100%;
+                border: 3px black solid;
+                background-color: rgb(199, 197, 209);
+    }
+    .tableau2{
+        margin-left: 50px;
+        width: 95%;
+        margin-left: 1%;
+        margin-top: -2%;
+        padding: 1%;
+        height: 20%;
+        
+    }
+    .tab2_bloc{
+        width: 20%;
+        height: 100%;
+        background-color: rgb(199, 197, 209);
+        border: 3px black solid;
+    }
+.text_css{
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+ .css_text_definition{
+    padding-left: 0%;
+    text-justify:auto;
+ }
+ .les_bloc_css{
+                height: 300px;
+            border: 3px black solid;
+          
+ }
+ .les_bloc_css_bas{
+     margin-top: 2%;
+    height: 300px;
+    border: 3px black solid;
+   
+ }
